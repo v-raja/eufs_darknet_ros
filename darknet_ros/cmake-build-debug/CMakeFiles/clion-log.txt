@@ -1,0 +1,72 @@
+/home/vivek/IDEs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vivek/eufs_ws/src/darknet_ros/darknet_ros
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Darknet path dir = /home/vivek/eufs_ws/src/darknet_ros/darknet
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+-- Searching for X11...
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
+--  X11_INCLUDE_DIR: /usr/include
+--  X11_LIBRARIES: /usr/lib/x86_64-linux-gnu/libSM.so/usr/lib/x86_64-linux-gnu/libICE.so/usr/lib/x86_64-linux-gnu/libX11.so/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   chrono
+--   system
+--   date_time
+--   atomic
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Using CATKIN_DEVEL_PREFIX: /home/vivek/eufs_ws/src/darknet_ros/darknet_ros/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/vivek/eufs_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/vivek/eufs_ws/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/vivek/eufs_ws/src/darknet_ros/darknet_ros/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking and downloading yolov2-tiny.weights if needed ...
+-- Checking and downloading yolov3.weights if needed ...
+-- Checking and downloading yolov2.weights if needed ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vivek/eufs_ws/src/darknet_ros/darknet_ros/cmake-build-debug

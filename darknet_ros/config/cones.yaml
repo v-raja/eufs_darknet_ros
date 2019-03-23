@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: cones-obj.cfg
+  weight_file:
+    name: cones-tiny_last.weights
+  threshold:
+    value: 0.1
+  detection_classes:
+    names:
+      - blue
+      - yellow
+      - orange

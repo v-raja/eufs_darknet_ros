@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vivek/eufs_ws/src/darknet_ros/darknet_ros/cmake-build-debug/devel/setup.sh
